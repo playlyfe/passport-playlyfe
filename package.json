@@ -22,8 +22,7 @@
   }],
   "main": "./lib",
   "dependencies": {
-    "passport-oauth": "*",
-    "playlyfe-node-sdk": "*"
+    "passport-oauth": "*"
   },
   "engines": {
     "node": ">=0.8.18"
