@@ -1,8 +1,15 @@
 {
   "name": "passport-playlyfe",
-  "version": "v0.0.1",
+  "version": "0.0.2",
   "description": "Playlyfe passport authentication strategy for NodeJS",
-  "keywords": ["passport", "playlyfe", "auth", "authentication", "identity", "oauth"],
+  "keywords": [
+    "passport",
+    "playlyfe",
+    "auth",
+    "authentication",
+    "identity",
+    "oauth"
+  ],
   "homepage": "http://dev.playlyfe.com",
   "repository": {
     "type": "git",
@@ -16,10 +23,12 @@
     "email": "johny@playlyfe.com",
     "url": "http://blog.playlyfe.com"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib",
   "dependencies": {
     "passport-oauth": "*"
